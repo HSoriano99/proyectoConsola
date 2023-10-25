@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.console {
+    margin-top: 5em;
+    background-color: coral;
+    width: 20em;
+    height: 30em;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.screenDiv {
+    background-color: rgb(43, 40, 40);
+    width: 18em;
+    height: 14em;
+    position: relative;
+    top: 1em;
+    border-radius: 1em;
+    
+}
