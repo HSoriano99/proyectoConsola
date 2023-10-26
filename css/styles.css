@@ -31,11 +31,19 @@
 
 .screen {
 
-    background-color: darkgrey;
     width: 12em;
     height: 9em;
     margin-bottom: 1em;
       
+}
+
+.screen img {
+
+    width: 12em;
+    height: 9em;
+    margin-bottom: 1em;
+      
+
 }
 
 .powerLight {
