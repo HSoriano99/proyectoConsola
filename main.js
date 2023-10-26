@@ -55,6 +55,35 @@ btnA.onclick = function() {
 
 
 }
+btnB.onclick = function() {
+    console.log("estoy aqui")
+    console.log(contadorLuz)
+
+    if (contadorLuz==1 && contadorPantalla==1) {
+        pantallaInicio.src="img/pantallaInicioGB.webp"
+        contadorPantalla--
+        console.log(contadorPantalla)
+ 
+    } else if (contadorPantalla==2) {
+        console.log("entra el else?")
+        pantallaInicio.src="img/img1mario.png"
+        contadorPantalla--
+        console.log(contadorPantalla)
+
+    } else if (contadorPantalla==3) {
+        console.log("entra el 3ndo else?")
+        pantallaInicio.src="img/img2mario.png"
+        contadorPantalla--
+        console.log(contadorPantalla)
+
+    } else if (contadorPantalla==4) {
+        console.log("entra el 4ndo else?")
+        pantallaInicio.src="img/img3mario.png"
+        contadorPantalla--
+        console.log(contadorPantalla)
+    }
+
+}
 
 
 reset.onclick = function() {
